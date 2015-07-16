@@ -14,7 +14,7 @@ features
 Usage
 =====
 
-``
+```
 $> npm install -g web-hosting
 $> mkdir public
 $> mkdir public/css
@@ -28,7 +28,7 @@ html
   h1 this is web-hosting
 EOF
 $> web-static-hosting 
-``
+```
 
 it is easy to use.
 
