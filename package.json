@@ -1,6 +1,7 @@
 {
     "name": "web-hosting",
-    "version": "1.0.0",
+    "version": "1.0.1",
+    "license": "MIT",    
     "author": {
 	"name": "Jinsub Ahn",
 	"email": "jinniahn@gmail.com"
@@ -29,10 +30,8 @@
 	"jade": "^1.11.0",
 	"less": "^2.5.1",
 	"stylus": "^0.51.1",
-	"tumblr.js": "^0.0.5",
-	"twilio": "^2.2.1",
-	"twit": "^1.1.20",
 	"uglify-js": "^2.4.23",
 	"underscore": "^1.8.3"
-    }
+    },
+    
 }
