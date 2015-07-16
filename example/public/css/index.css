@@ -1,0 +1,203 @@
+.content {
+    padding-top: 47px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+}
+
+.text-right {
+    text-align: right;
+}
+
+.intro-header {
+    text-align: center;
+    color: #f8f8f8;
+    background: url("../img/cover.jpg") no-repeat center center;
+    background-size: cover;
+}
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.dash-panel-item-img {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.dash-panel-item {
+    display: block;
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 100%;
+}
+.dash-panel-item > h1 {
+    margin-top: 0;
+    vertical-align: middle;
+}
+.history-img {
+    display: block;
+    height: 2.25em;
+}
+.dash-panel .chart-container {
+    margin-top: 15px;
+    vertical-align: middle;
+    display: block;
+}
+.report-graph {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 45px;
+}
+.dough-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.dough-text > p {
+    margin-top: 75px;
+    height: 53px;
+    font-size: 26px;
+    vertical-align: middle;
+}
+.dough-text > p > small {
+    font-size: 25%;
+}
+.well-text {
+    margin-top: 10.5px;
+}
+.noti-toggle-wrap {
+    margin-top: 12px;
+}
+
+/*
+.dash-panel-item {
+
+    position: relative;
+    width: 100%;
+    max-height: 100%;
+    background: rgb(240,240,240);
+    vertical-align: middle;
+    padding: 15px;
+    margin-bottom: 15px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.dash-panel-item-img {
+    display: block;
+    height: inherit;
+    padding-right: 15px;
+}
+
+.dash-panel-item .list-group {
+    margin-bottom: 0;
+}
+.dash-panel-item .list-group-item {
+    border: 0;
+}
+.dash-panel-item-img > img {
+    height: 100%;
+}
+.dash-panel-item > h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.dash-panel-item > h2 > small {
+    vertical-align: middle;
+}
+    */
+
+.signup {
+    background: rgba(0,0,0,0.6);
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+}
+
+.signup > .container {
+    vertical-align: middle;
+    position: relative;
+    margin-top: 30px;
+}
+
+.signup > .container > .row {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.navbar-form > .form-group {
+    margin-right: 10px;
+}
+
+.section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+    height: 500px;
+}
+
+.section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}

@@ -1,0 +1,38 @@
+{
+    "name": "Web-Resource-Hosting",
+    "version": "1.0.0",
+    "author": {
+	"name": "Jinsub Ahn",
+	"email": "jinniahn@gmail.com"
+    },
+    
+    "description": "Web Resource Hostring for jade, coffee-script, less, html, css, js",
+    
+    "repository": {
+	"type": "git",
+	"url": "git@github.com:jinniahn/web-hosting"
+    },
+    
+    "scripts": {
+	"test": "./bin/web-start-hosting example"
+    },
+    "bin": {
+	"web-static-hosting": "bin/web-static-hosting"
+    },    
+    "dependencies": {
+	"coffee-script": "^1.9.3",
+	"compression": "^1.4.4",
+	"connect-assets": "^4.7.1",
+	"connect-jade-static": "^0.2.2",
+	"ejs": "^2.3.3",
+	"express": "^4.12.4",
+	"jade": "^1.11.0",
+	"less": "^2.5.1",
+	"stylus": "^0.51.1",
+	"tumblr.js": "^0.0.5",
+	"twilio": "^2.2.1",
+	"twit": "^1.1.20",
+	"uglify-js": "^2.4.23",
+	"underscore": "^1.8.3"
+    }
+}
